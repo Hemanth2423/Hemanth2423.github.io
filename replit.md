@@ -1,45 +1,21 @@
-# [Project name]
+# Hemanth Kumar portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A root-level static Jekyll website for GitHub Pages, built from Markdown pages, HTML layouts/includes, CSS, and a small theme-toggle script.
 
-## Run & Operate
+## Run & operate
+- Install Ruby 3.2 and Bundler, then `bundle install`.
+- `bundle exec jekyll serve --host 0.0.0.0 --port "${PORT:-4000}"` previews the site.
+- `JEKYLL_ENV=production bundle exec jekyll build` checks the build.
+- GitHub Pages builds from `main` / `/` of a repository named `Hemanth2423.github.io`; no custom domain.
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+## Structure
+- `index.md`, `about.md`, `experience.md`, `contact.md`: content with YAML front matter.
+- `_config.yml`: site URL, empty baseurl, SEO and sitemap plugins.
+- `_layouts/`, `_includes/`: reusable HTML.
+- `assets/css/style.css`, `assets/js/theme.js`, `assets/favicon.svg`: presentation.
+- `README.md`: editing, publishing, and verification guide.
 
-## Stack
-
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
-
-## Where things live
-
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+## Project-specific constraints
+- Keep the GitHub Pages site in the repository root. Do not add a separate app, framework, backend, database, blog, or trackers.
+- Use only résumé facts supplied by the user; do not fetch personal details from a LinkedIn URL or invent accomplishments.
+- The user approved publishing their email as a mailto link, but not their phone number.

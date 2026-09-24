@@ -1,0 +1,27 @@
+title: "Hemanth Kumar Nara Jayasankar"
+description: "Hemanth Kumar Nara Jayasankar is an AI product manager building thoughtful data and AI products."
+url: "https://hemanth2423.github.io"
+baseurl: ""
+lang: en
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: pretty
+theme: null
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - PLAN.md
+  - replit.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - artifacts
+  - lib
+  - scripts
+  - node_modules
+  - .local
+  - .agents
+  - .conversation
+  - attached_assets
