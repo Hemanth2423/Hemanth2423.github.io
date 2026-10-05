@@ -7,8 +7,8 @@ permalink: /
 
 <section class="hero" aria-labelledby="hero-title">
   <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> AI product manager · Berkeley MBA</p>
-  <h1 id="hero-title">Building useful AI,<br><em>with people in mind.</em></h1>
-  <p class="hero-lead">I'm Hemanth Kumar Nara Jayasankar. I work at the intersection of AI, product strategy, and human-centered experiences—from life sciences data to conversational products used around the world.</p>
+  <h1 id="hero-title">MBA student.<br><em>Product manager.</em></h1>
+  <p class="hero-lead">I'm an MBA student at UC Berkeley Haas and a product manager interested in AI, data, and technology products. My experience spans life sciences, conversational AI, and digital benefits, where I turn complex technology into practical products for people.</p>
   <div class="hero-actions">
     <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
     <a class="text-link" href="{{ '/about/' | relative_url }}">A little about me <span aria-hidden="true">→</span></a>
