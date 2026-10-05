@@ -16,14 +16,15 @@ permalink: /
   <div class="hero-rule" aria-hidden="true"></div>
 </section>
 
-<section class="home-section" aria-labelledby="work-title">
+<section class="home-section" id="experience" aria-labelledby="experience-title">
   <div class="section-heading">
     <div>
-      <p class="eyebrow">01 / The journey</p>
-      <h2 id="work-title">Where I've worked</h2>
+      <p class="eyebrow">01 / Professional background</p>
+      <h2 id="experience-title">Experience</h2>
     </div>
     <a class="text-link" href="{{ '/experience/' | relative_url }}">Full experience <span aria-hidden="true">↗</span></a>
   </div>
+  <p class="experience-summary">As a product manager, I’ve worked across life sciences, conversational AI, and digital benefits, with a strong interest in AI, data, and enterprise technology.</p>
   <div class="role-list">
     <div class="role-item"><div><p class="role-date">2026 — Present</p><h3>Genentech</h3><p>AI Product Manager · Digital &amp; AI</p></div><span aria-hidden="true">↗</span></div>
     <div class="role-item"><div><p class="role-date">2023 — 2025</p><h3>Gupshup</h3><p>Product Manager · Conversational AI</p></div><span aria-hidden="true">↗</span></div>
