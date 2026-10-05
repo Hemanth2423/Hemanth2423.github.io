@@ -88,6 +88,7 @@ h3 { font-size: 22px; }
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; }
 .section-heading h2, .home-section h2 { margin: 0 0 27px; }
 .section-heading .text-link { margin-bottom: 33px; white-space: nowrap; }
+.experience-summary { max-width: 680px; margin: 0 0 24px; color: var(--muted); font-size: 16px; line-height: 1.65; }
 .role-list { border-top: 1px solid var(--line); }
 .role-item { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
 .role-item h3 { margin: 0 0 2px; font-size: 25px; }
